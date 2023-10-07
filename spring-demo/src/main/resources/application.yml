@@ -1,0 +1,45 @@
+spring:
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    properties:
+      hibernate:
+        id:
+          new_generator_mappings: false
+        jdbc:
+          lob:
+            ddl-non_contextual_creation: none # When you launch the application for the first time - switch "none" at "create"
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        ddl-auto: none
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+
+    
+server:
+  port: 8080 
+  tomcat:
+    accesslog:
+      enabled: true
+    basedir: tomcat
+
+management:
+  endpoints:
+     web.base-path: /effigo/vendor/portal/api
+     health.path: /health
+     info.path: /info
+     
+  
+
+
+
+  
+tenants:
+  datasources:      
+    default:
+      jdbcUrl: jdbc:postgresql://shared-preprod.clxvybcdn8fq.ap-south-1.rds.amazonaws.com/effigo_greenko_dev1
+      driverClassName: org.postgresql.Driver
+      schema:
+      username: upeg
+      password: KjpIQ4CzJu4tLCYnz6cY0w==     
+   
+
