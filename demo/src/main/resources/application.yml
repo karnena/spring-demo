@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/nccurban_prod4oct
+    username: postgres
+    password: sillicon
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    properties:
+      hibernate:
+        id:
+          new_generator_mappings: false
+        jdbc:
+          lob:
+            ddl-non_contextual_creation: create # When you launch the application for the first time - switch "none" at "create"
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        ddl-auto: create
+        enable_lazy_load_no_trans: true
+
+server:
+  port: 8080
+  tomcat:
+    accesslog:
+      enabled: true
+    basedir: tomcat
+
+     

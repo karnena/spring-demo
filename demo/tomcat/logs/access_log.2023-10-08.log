@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:35:27 +0530] "GET /effigo/api/common/getAllUsers HTTP/1.1" 200 12
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:36:14 +0530] "GET /effigo/api/common/getAllUsers HTTP/1.1" 200 12
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:37:01 +0530] "GET /effigo/api/common/getAllUsers HTTP/1.1" 200 149
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:37:26 +0530] "POST /effigo/api/common/saveUser HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:37:31 +0530] "GET /effigo/api/common/getAllUsers HTTP/1.1" 200 250
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:38:37 +0530] "PATCH /effigo/api/common/deleteUsers/4220c216-868e-4d09-ab68-6c1171580639 HTTP/1.1" 404 199
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:54:41 +0530] "PATCH /effigo/api/common/deleteUsers/4220c216-868e-4d09-ab68-6c1171580639 HTTP/1.1" 404 199
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:54:56 +0530] "PATCH /effigo/api/common/deletePlant/4220c216-868e-4d09-ab68-6c1171580639 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:55:13 +0530] "POST /effigo/api/common/savePlant HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:55:27 +0530] "GET /effigo/api/common/getAllPlants HTTP/1.1" 200 250
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:55:46 +0530] "PATCH /effigo/api/common/deletePlant/4220c216-868e-4d09-ab68-6c1171580639 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:55:53 +0530] "GET /effigo/api/common/getAllPlants HTTP/1.1" 200 250
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:56:41 +0530] "PATCH /effigo/api/common/deletePlant/53d885e9-b2ad-4162-a1dd-0ab0352f8110 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2023:12:56:47 +0530] "GET /effigo/api/common/getAllPlants HTTP/1.1" 200 149
